@@ -41,7 +41,7 @@ make BUILDINFO_TAG=%{version} victoria-logs vlogscli vlagent
 %{__install} -v -D -t $RPM_BUILD_ROOT%{_unitdir} %{SOURCE100}
 
 %{__install} -m 0755 -v -D -t %{buildroot}%{_bindir} bin/victoria-logs bin/vlogscli bin/vlagent
-%{__install} -p -D -m 0644 %{SOURCE201} %{buildroot}%{_sysusersdir}/victoria-logs.conf
+%{__install} -p -D -m 0644 %{SOURCE200} %{buildroot}%{_sysusersdir}/victoria-logs.conf
 
 %{__install} -d -m 0755 %{buildroot}%{_sharedstatedir}/victoria-logs
 
