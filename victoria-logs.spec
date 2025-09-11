@@ -1,7 +1,7 @@
 %define debug_package %{nil}
 %define __strip /bin/true
 
-%global forgeurl https://github.com/VictoriaLogs/VictoriaLogs
+%global forgeurl https://github.com/VictoriaMetrics/VictoriaLogs
 Name:     VictoriaLogs
 Version:  1.33.1
 %forgemeta
