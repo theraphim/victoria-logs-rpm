@@ -45,7 +45,7 @@ make BUILDINFO_TAG=%{version} victoria-logs vlogscli vlagent
 
 %{__install} -d -m 0755 %{buildroot}%{_sharedstatedir}/victoria-logs
 
-%{__install} -p -D -m 644 %{SOURCE301} %{buildroot}%{_sysconfdir}/sysconfig/victoria-logs
+%{__install} -p -D -m 644 %{SOURCE300} %{buildroot}%{_sysconfdir}/sysconfig/victoria-logs
 
 %files
 %{_sysusersdir}/victoria-logs.conf
