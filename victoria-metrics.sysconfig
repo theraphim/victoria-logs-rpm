@@ -1,1 +1,0 @@
-VM_SCRAPE_OPTIONS="-promscrape.config=/etc/victoria-metrics/scrape.yml"
