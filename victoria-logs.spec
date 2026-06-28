@@ -3,7 +3,7 @@
 
 %global forgeurl https://github.com/VictoriaMetrics/VictoriaLogs
 Name:     VictoriaLogs
-Version:  1.50.0
+Version:  1.51.0
 %forgemeta
 Release:  %autorelease
 Summary:  High-performance, cost-effective and scalable logs storage.
